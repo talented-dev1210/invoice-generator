@@ -25,7 +25,7 @@ const InvoiceForm = () => {
       price: '1.00',
     },
   ]);
-// To handle Invoice review
+
   const reviewInvoiceHandler = (event) => {
     event.preventDefault();
     setIsOpen(true);
